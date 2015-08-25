@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources >
+    <string name="app_name">Bluetooth</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="connected_to">Connected</string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="select_device">Select a device to connect</string>
+    
+    <string-array name="intensity">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

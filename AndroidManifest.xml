@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bluetooth"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+<application
+        android:icon="@drawable/bluetooth"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name=".communication.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".communication.Device_Config"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".communication.PairedListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/select_device" >
+        </activity>
+        <activity
+            android:name=".communication.UnPairedListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/select_device" >
+        </activity>
+        <activity
+            android:name=".communication.BluetoothService"
+            android:configChanges="orientation|keyboardHidden" >
+        </activity>
+        <activity
+            android:name=".communication.Setting"
+            android:configChanges="orientation|keyboardHidden" >
+        </activity>
+        <activity
+            android:name=".schedule.Schedule_Screen"
+            android:configChanges="orientation|keyboardHidden" >
+        </activity>
+        <activity
+            android:name=".schedule.Schedule_Detail_Screen"
+            android:configChanges="orientation|keyboardHidden" >
+        </activity>
+         <activity
+            android:name=".schedule.Schedule_Detail_Edit"
+            android:configChanges="orientation|keyboardHidden" >
+        </activity>
+    </application>
+</manifest>
